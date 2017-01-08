@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef Name="MREBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+		<MaxHitPoints>50</MaxHitPoints>
+		<Flammability>1.0</Flammability>
+		<Beauty>-6</Beauty>
+		<Mass>0.2</Mass>
+		<DeteriorationRate>0.5</DeteriorationRate>
+	</statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <stackLimit>25</stackLimit>
+    <tickerType>Rare</tickerType>
+    <socialPropernessMatters>true</socialPropernessMatters>
+    <thingCategories>
+      <li>FoodMeals</li>
+    </thingCategories>
+    <alwaysHaulable>true</alwaysHaulable>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+      <li Class="CompProperties_Ingredients" />
+      <li Class="CompProperties_FoodPoisonable" />
+	  <li Class="CompProperties_Rottable">
+        <daysToRotStart>80</daysToRotStart>
+        <rotDestroys>false</rotDestroys>
+      </li>
+    </comps>
+    <pathCost>15</pathCost>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <ingestible>
+      <foodType>Meal</foodType>
+      <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <optimalityOffset>16</optimalityOffset>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="MREBase">
+    <defName>MRESimple</defName>
+    <label>simple MRE</label>
+    <description>A simple ready-to-eat meal cooked from a few ingredients, prepped and packaged for travel.</description>
+    <graphicData>
+      <texPath>SimpleMRE</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>30</MarketValue>
+      <WorkToMake>600</WorkToMake>
+    </statBases>
+    <ingestible>
+		<preferability>MealSimple</preferability>
+		<tasteThought>AteSimpleMRE</tasteThought>
+		<nutrition>0.8</nutrition>
+		<ingestEffect>EatVegetarian</ingestEffect>
+		<ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+
+  <ThingDef ParentName="MREBase">
+    <defName>MREFine</defName>
+    <label>fine MRE</label>
+    <description>A complex ready-to-eat meal assembled with care from a wide selection of ingredients, prepped and packaged for travel.</description>
+    <graphicData>
+      <texPath>MREFine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>33</MarketValue>
+      <WorkToMake>900</WorkToMake>
+    </statBases>
+    <ingestible>
+      <preferability>MealFine</preferability>
+		<tasteThought>AteFineMRE</tasteThought>
+		<nutrition>0.85</nutrition>
+      <ingestEffect>EatVegetarian</ingestEffect>
+      <ingestSound>Meal_Eat</ingestSound>
+    </ingestible>
+  </ThingDef>
+  
+</ThingDefs>  
