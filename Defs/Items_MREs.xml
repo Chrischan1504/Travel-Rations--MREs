@@ -66,7 +66,7 @@
     <label>fine MRE</label>
     <description>A complex ready-to-eat meal assembled with care from a wide selection of ingredients, prepped and packaged for travel.</description>
     <graphicData>
-      <texPath>MREFine</texPath>
+      <texPath>FineMRE</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
