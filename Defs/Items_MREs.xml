@@ -9,7 +9,7 @@
     <statBases>
 		<MaxHitPoints>50</MaxHitPoints>
 		<Flammability>1.0</Flammability>
-		<Beauty>-6</Beauty>
+		<Beauty>-4</Beauty>
 		<Mass>0.2</Mass>
 		<DeteriorationRate>0.5</DeteriorationRate>
 	</statBases>
@@ -49,7 +49,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>30</MarketValue>
+      <MarketValue>15</MarketValue>
       <WorkToMake>600</WorkToMake>
     </statBases>
     <ingestible>
@@ -70,7 +70,7 @@
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
-      <MarketValue>33</MarketValue>
+      <MarketValue>20</MarketValue>
       <WorkToMake>900</WorkToMake>
     </statBases>
     <ingestible>

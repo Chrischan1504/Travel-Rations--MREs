@@ -2,7 +2,7 @@
 <ModMetaData>
   <name>Travel rations: MREs</name>
   <author>Tammabanana; art recolors by A Friend</author>
-  <targetVersion>0.16.1393</targetVersion>
+  <targetVersion>0.17</targetVersion>
   <description>Ready-to-eat meals, both simple and fine, specially cooked and packaged to travel well and last a long time. Intended for caravans, but probably useful for panic rooms and winter, too.
   
   Features:
@@ -17,6 +17,6 @@
   
   XML by Tammabanana
   Art recolors by A Friend
-  Mechanics consultation with Skullywag, Spoonshortage, and YOINKED from ProfugoBarbarus and 3DGrunge's prior conversation in same channel.
+  Mechanics consultation with Skullywag, Spoonshortage, and YOINKED from ProfugoBarbatus and 3DGrunge's prior conversation in same channel.
 </description>
 </ModMetaData>
