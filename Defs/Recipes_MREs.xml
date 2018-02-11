@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 <!-- Simple, 1x and 5x -->
 
@@ -166,10 +166,7 @@
 			</exceptedThingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>
-			<li>
-				<skill>Cooking</skill>
-				<minLevel>6</minLevel>
-			</li>
+			<Cooking>6</Cooking>
 		</skillRequirements>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
@@ -231,12 +228,9 @@
 			</exceptedThingDefs>
 		</defaultIngredientFilter>
 		<skillRequirements>
-			<li>
-				<skill>Cooking</skill>
-				<minLevel>6</minLevel>
-			</li>
+			<Cooking>6</Cooking>
 		</skillRequirements>
     <workSkill>Cooking</workSkill>
   </RecipeDef>
   
-  </RecipeDefs>
+  </Defs>
