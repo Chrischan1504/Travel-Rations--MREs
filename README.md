@@ -17,3 +17,6 @@ Ready-to-eat meals, both simple and fine, specially cooked and packaged to trave
   XML by Tammabanana
   Art recolors by A Friend
   Mechanics consultation with Skullywag, Spoonshortage, and YOINKED from ProfugoBarbarus and 3DGrunge's prior conversation in same channel.
+  
+  Updated by Zedrackis for 0.18
+	Updated by Chrischan1504 for 1.0
